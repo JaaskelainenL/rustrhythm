@@ -1,0 +1,9 @@
+[package]
+name = "rustrhythm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ordered-float = "5.0.0"
+sdl2 = { version = "0.38.0", features = ["image", "mixer", "ttf"] }
+rfd = "0.15.4"
